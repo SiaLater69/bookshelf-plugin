@@ -1,0 +1,27 @@
+/* css/bookshelf-frontend.css */
+.bookshelf-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.book-list {
+    list-style: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin-bottom: 20px;
+}
+
+.add-to-wishlist {
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.add-to-wishlist:hover {
+    background-color: #0056b3;
+}
